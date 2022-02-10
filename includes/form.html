@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Calculator</title>
+</head>
+<body>
+    <form method="post" action="billCalc.php">
+        <p><input type="text" name="restaurant" value="<?php echo $restaurant; ?>">Restaurant: </input></p>
+        <p><input type="text" name="mealprice" value="<?php echo $mealprice; ?>">Meal Cost: </input></p>
+
+        <p><select id="tipVal" name="tipVal">Tip:</p>
+            <option value="<?php echo $tipVal[0]; ?>">10%</option>
+            <option value="<?php echo $tipVal[1]; ?>">20%</option>
+            <option value="<?php echo $tipVal[2]; ?>">25%</option>
+            <option value="<?php echo $tipval[3]; ?>">30%</option>
+        
+        <input type="submit" value="Calculate Total" id="submit" name="submit"/>
+    </form>
+</body>
+</html>
