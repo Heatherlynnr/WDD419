@@ -1,0 +1,26 @@
+body {
+    background-color: seashell;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    margin: 10 auto;
+    background-color: rgb(161, 211, 237);
+    text-align: left;
+    height: 100px;
+    width: auto;
+}
+
+.box1 {
+    margin: 50px;
+    background-color: aliceblue;
+    height: 400px;
+    width: auto;
+}
+
+.box2 {
+    margin: 50px;
+    background-color:beige;
+    height: 400px;
+    width: auto;
+}
